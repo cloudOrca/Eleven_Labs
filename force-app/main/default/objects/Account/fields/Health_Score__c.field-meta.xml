@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Score__c</fullName>
+    <description>Informs the health of the customer based on:
++ Customer Outcomes (70%)
+ - Deployment (Onboarding completed) 20%
+ - Engagement (Training completed) 10%
+ - Adoption (Character usage) 45% 
+ - Character usage 40%
+ - User 5%
+ - ROI captured (5%)
+ - Expansions (20%)
++ Customer Experience (30%)
+  - Overall Relationship Experience (NPS) 70%
+  - Support Experience (CSAT) 20%
+  - Sentiment (Subjective/Attio) 10%</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informs the health of the customer based on:
++ Customer Outcomes (70%)
+ - Deployment (Onboarding completed) 20%
+ - Engagement (Training completed) 10%
+ - Adoption (Character usage) 45% 
+ - Character usage 40%
+ - User 5%
+ - ROI captured (5%)
+ - Expansions (20%)
++ Customer Experience (30%)
+  - Overall Relationship Experience (NPS) 70%
+  - Support Experience (CSAT) 20%
+  - Sentiment (Subjective/Attio) 10%</inlineHelpText>
+    <label>Health Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Delinquent_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether the account in stripe has overdue invoices</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether the account in stripe has overdue invoices</inlineHelpText>
+    <label>Stripe Delinquent Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
