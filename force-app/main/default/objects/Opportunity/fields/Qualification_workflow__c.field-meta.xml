@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_workflow__c</fullName>
+    <description>Actions taken to qualify the lead into a Deal</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Actions taken to qualify the lead into a Deal</inlineHelpText>
+    <label>Qualification workflow</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>More info requested via email</fullName>
+                <default>false</default>
+                <label>More info requested via email</label>
+            </value>
+            <value>
+                <fullName>Sent to self-serve</fullName>
+                <default>false</default>
+                <label>Sent to self-serve</label>
+            </value>
+            <value>
+                <fullName>Already a customer</fullName>
+                <default>false</default>
+                <label>Already a customer</label>
+            </value>
+            <value>
+                <fullName>Book call</fullName>
+                <default>false</default>
+                <label>Book call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
