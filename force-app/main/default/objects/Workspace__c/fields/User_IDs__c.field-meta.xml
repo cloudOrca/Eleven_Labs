@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_IDs__c</fullName>
+    <description>List of users IDs for users who are in this workspace</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of users IDs for users who are in this workspace</inlineHelpText>
+    <label>User IDs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
