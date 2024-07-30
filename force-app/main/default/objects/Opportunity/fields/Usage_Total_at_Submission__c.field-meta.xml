@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usage_Total_at_Submission__c</fullName>
+    <description>The total characters used by this account at the point of lead submission/creation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total characters used by this account at the point of lead submission/creation</inlineHelpText>
+    <label>Usage Total at Submission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
