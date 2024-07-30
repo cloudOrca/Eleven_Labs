@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roles__c</fullName>
+    <description>Define the role of the contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Define the role of the contact</inlineHelpText>
+    <label>Roles</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Champion</fullName>
+                <default>false</default>
+                <label>Champion</label>
+            </value>
+            <value>
+                <fullName>User</fullName>
+                <default>false</default>
+                <label>User</label>
+            </value>
+            <value>
+                <fullName>Economic buyer</fullName>
+                <default>false</default>
+                <label>Economic buyer</label>
+            </value>
+            <value>
+                <fullName>Tech integrator</fullName>
+                <default>false</default>
+                <label>Tech integrator</label>
+            </value>
+            <value>
+                <fullName>Executive sponsor</fullName>
+                <default>false</default>
+                <label>Executive sponsor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>
