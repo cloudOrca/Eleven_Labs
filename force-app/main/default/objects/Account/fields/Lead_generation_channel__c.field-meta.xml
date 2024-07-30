@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_generation_channel__c</fullName>
+    <description>Give information about the lead generation channel</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Give information about the lead generation channel</inlineHelpText>
+    <label>Lead generation channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Marketing campaign</fullName>
+                <default>false</default>
+                <label>Marketing campaign</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+            <value>
+                <fullName>Upselling</fullName>
+                <default>false</default>
+                <label>Upselling</label>
+            </value>
+            <value>
+                <fullName>Apollo</fullName>
+                <default>false</default>
+                <label>Apollo</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Social media</fullName>
+                <default>false</default>
+                <label>Social media</label>
+            </value>
+            <value>
+                <fullName>News</fullName>
+                <default>false</default>
+                <label>News</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Typeform</fullName>
+                <default>false</default>
+                <label>Typeform</label>
+            </value>
+            <value>
+                <fullName>Contact Sales Form</fullName>
+                <default>false</default>
+                <label>Contact Sales Form</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Discord</fullName>
+                <default>false</default>
+                <label>Discord</label>
+            </value>
+            <value>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+                <label>Linkedin</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

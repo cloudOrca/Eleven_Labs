@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Tier__c</fullName>
+    <description>The level of support the customer receives either due to customer characteristics or negotiated agreement:
+
+1: Slack channel + CSM
+2: CSM
+3: General Support (default)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The level of support the customer receives either due to customer characteristics or negotiated agreement:
+
+1: Slack channel + CSM
+2: CSM
+3: General Support (default)</inlineHelpText>
+    <label>Customer Success Tier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

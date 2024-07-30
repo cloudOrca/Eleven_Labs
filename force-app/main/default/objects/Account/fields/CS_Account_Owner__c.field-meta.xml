@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS_Account_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>CS manager that owns the post sale relationship with this account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CS manager that owns the post sale relationship with this account</inlineHelpText>
+    <label>CS Account Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

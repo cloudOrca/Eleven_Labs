@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <description>Geographic region of the company, based on company&apos;s HQ or place of incorporation (subsidiary HQ if company is a subsidiary).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Geographic region of the company, based on company&apos;s HQ or place of incorporation (subsidiary HQ if company is a subsidiary).</inlineHelpText>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Africa</fullName>
+                <default>false</default>
+                <label>Africa</label>
+            </value>
+            <value>
+                <fullName>East Asia &amp; Pacific</fullName>
+                <default>false</default>
+                <label>East Asia &amp; Pacific</label>
+            </value>
+            <value>
+                <fullName>Australia</fullName>
+                <default>false</default>
+                <label>Australia</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>Middle East</fullName>
+                <default>false</default>
+                <label>Middle East</label>
+            </value>
+            <value>
+                <fullName>South America</fullName>
+                <default>false</default>
+                <label>South America</label>
+            </value>
+            <value>
+                <fullName>India &amp; South Asia</fullName>
+                <default>false</default>
+                <label>India &amp; South Asia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
