@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OV1StageMeetingBookedRequiredFields</fullName>
+    <active>true</active>
+    <description>This VR will fire if Expected Deal Close Date, Deal Value, Region and Industry is not populated when changing Stage to &apos;Meeting Booked&apos;.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &apos;Meeting Booked&apos;),
+				NOT($Setup.Org_Control__c.Validation_Rule__c),
+				OR(
+        ISNEW(),
+        ISCHANGED(StageName)
+    ),
+    OR(
+								ISBLANK(Expected_Deal_Close_Date__c),
+        ISBLANK(Deal_value__c),
+        ISBLANK(Region__c),
+        ISPICKVAL(Industry__c, &apos;&apos;)
+    )
+
+)</errorConditionFormula>
+    <errorMessage>OV1: Please fill in Expected Deal Close Date, Deal Value, Region, and Industry when changing Stage to Meeting Booked.</errorMessage>
+</ValidationRule>
