@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usage_Metrics_Start_Date__c</fullName>
+    <description>Usage metrics (&quot;Total Usage Last 30&quot;, &quot;TTS Usage Last 30&quot;, etc.) are summed from this date onwards</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Usage metrics (&quot;Total Usage Last 30&quot;, &quot;TTS Usage Last 30&quot;, etc.) are summed from this date onwards</inlineHelpText>
+    <label>Usage Metrics Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
