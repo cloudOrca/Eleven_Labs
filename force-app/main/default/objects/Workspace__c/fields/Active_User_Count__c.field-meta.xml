@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_User_Count__c</fullName>
+    <description>Number of users active in the workspace in past 30 days</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of users active in the workspace in past 30 days</inlineHelpText>
+    <label>Active User Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
