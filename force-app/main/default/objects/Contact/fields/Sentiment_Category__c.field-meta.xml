@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sentiment_Category__c</fullName>
+    <description>Category of their sentiment, derived from Sentiment description</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Category of their sentiment, derived from Sentiment description</inlineHelpText>
+    <label>Sentiment Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>promoter</fullName>
+                <default>false</default>
+                <label>promoter</label>
+            </value>
+            <value>
+                <fullName>detractor</fullName>
+                <default>false</default>
+                <label>detractor</label>
+            </value>
+            <value>
+                <fullName>evangelist</fullName>
+                <default>false</default>
+                <label>evangelist</label>
+            </value>
+            <value>
+                <fullName>non-public promoter</fullName>
+                <default>false</default>
+                <label>non-public promoter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
