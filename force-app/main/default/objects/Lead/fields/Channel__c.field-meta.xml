@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Channel that the lead was received through</inlineHelpText>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apollo</fullName>
+                <default>false</default>
+                <label>Apollo</label>
+            </value>
+            <value>
+                <fullName>Growth Referral</fullName>
+                <default>false</default>
+                <label>Growth Referral</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Contact Sales Form</fullName>
+                <default>false</default>
+                <label>Contact Sales Form</label>
+            </value>
+            <value>
+                <fullName>Lemlist</fullName>
+                <default>false</default>
+                <label>Lemlist</label>
+            </value>
+            <value>
+                <fullName>Investor Referral</fullName>
+                <default>false</default>
+                <label>Investor Referral</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Paid campaign</fullName>
+                <default>false</default>
+                <label>Paid campaign</label>
+            </value>
+            <value>
+                <fullName>Network Referral</fullName>
+                <default>false</default>
+                <label>Network Referral</label>
+            </value>
+            <value>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+                <label>Linkedin</label>
+            </value>
+            <value>
+                <fullName>Third-party gathered email</fullName>
+                <default>false</default>
+                <label>Third-party gathered email</label>
+            </value>
+            <value>
+                <fullName>ElevenLabs DB email</fullName>
+                <default>false</default>
+                <label>ElevenLabs DB email</label>
+            </value>
+            <value>
+                <fullName>Client referral</fullName>
+                <default>false</default>
+                <label>Client referral</label>
+            </value>
+            <value>
+                <fullName>Email upsell - grant opportunity</fullName>
+                <default>false</default>
+                <label>Email upsell - grant opportunity</label>
+            </value>
+            <value>
+                <fullName>Email upsell - existing customer</fullName>
+                <default>false</default>
+                <label>Email upsell - existing customer</label>
+            </value>
+            <value>
+                <fullName>Email upsell</fullName>
+                <default>false</default>
+                <label>Email upsell</label>
+            </value>
+            <value>
+                <fullName>Upsells</fullName>
+                <default>false</default>
+                <label>Upsells</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>PQL Workspace</fullName>
+                <default>false</default>
+                <label>PQL Workspace</label>
+            </value>
+            <value>
+                <fullName>MQL</fullName>
+                <default>false</default>
+                <label>MQL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
