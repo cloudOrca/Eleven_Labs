@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blockers_to_sign_deal__c</fullName>
+    <description>Features or requirements that are necessary to win the deal, but we don&apos;t have yet</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Features or requirements that are necessary to win the deal, but we don&apos;t have yet</inlineHelpText>
+    <label>Blockers to sign deal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SSML</fullName>
+                <default>false</default>
+                <label>SSML</label>
+            </value>
+            <value>
+                <fullName>Output file naming</fullName>
+                <default>false</default>
+                <label>Output file naming</label>
+            </value>
+            <value>
+                <fullName>Low Latency Streaming</fullName>
+                <default>false</default>
+                <label>Low Latency Streaming</label>
+            </value>
+            <value>
+                <fullName>Audio Native</fullName>
+                <default>false</default>
+                <label>Audio Native</label>
+            </value>
+            <value>
+                <fullName>Runtime generation</fullName>
+                <default>false</default>
+                <label>Runtime generation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>SSO</fullName>
+                <default>false</default>
+                <label>SSO</label>
+            </value>
+            <value>
+                <fullName>csv batch upload</fullName>
+                <default>false</default>
+                <label>csv batch upload</label>
+            </value>
+            <value>
+                <fullName>Emotional controllability</fullName>
+                <default>false</default>
+                <label>Emotional controllability</label>
+            </value>
+            <value>
+                <fullName>On-device rendering</fullName>
+                <default>false</default>
+                <label>On-device rendering</label>
+            </value>
+            <value>
+                <fullName>SOC2/ISO27001</fullName>
+                <default>false</default>
+                <label>SOC2/ISO27001</label>
+            </value>
+            <value>
+                <fullName>Volume controls</fullName>
+                <default>false</default>
+                <label>Volume controls</label>
+            </value>
+            <value>
+                <fullName>Timecodes</fullName>
+                <default>false</default>
+                <label>Timecodes</label>
+            </value>
+            <value>
+                <fullName>Annual Billing</fullName>
+                <default>false</default>
+                <label>Annual Billing</label>
+            </value>
+            <value>
+                <fullName>EU servers</fullName>
+                <default>false</default>
+                <label>EU servers</label>
+            </value>
+            <value>
+                <fullName>Pacing controls</fullName>
+                <default>false</default>
+                <label>Pacing controls</label>
+            </value>
+            <value>
+                <fullName>Non-verbal sounds</fullName>
+                <default>false</default>
+                <label>Non-verbal sounds</label>
+            </value>
+            <value>
+                <fullName>CoBranding</fullName>
+                <default>false</default>
+                <label>CoBranding</label>
+            </value>
+            <value>
+                <fullName>Projections</fullName>
+                <default>false</default>
+                <label>Projections</label>
+            </value>
+            <value>
+                <fullName>Dictionary/pronunciation controls</fullName>
+                <default>false</default>
+                <label>Dictionary/pronunciation controls</label>
+            </value>
+            <value>
+                <fullName>On-premises rendering</fullName>
+                <default>false</default>
+                <label>On-premises rendering</label>
+            </value>
+            <value>
+                <fullName>New languages</fullName>
+                <default>false</default>
+                <label>New languages</label>
+            </value>
+            <value>
+                <fullName>Speech-to-Speech</fullName>
+                <default>false</default>
+                <label>Speech-to-Speech</label>
+            </value>
+            <value>
+                <fullName>Emphasis &amp; intonation control</fullName>
+                <default>false</default>
+                <label>Emphasis &amp; intonation control</label>
+            </value>
+            <value>
+                <fullName>HIPAA Compliance</fullName>
+                <default>false</default>
+                <label>HIPAA Compliance</label>
+            </value>
+            <value>
+                <fullName>User management</fullName>
+                <default>false</default>
+                <label>User management</label>
+            </value>
+            <value>
+                <fullName>Private language models</fullName>
+                <default>false</default>
+                <label>Private language models</label>
+            </value>
+            <value>
+                <fullName>Dubbing Studio</fullName>
+                <default>false</default>
+                <label>Dubbing Studio</label>
+            </value>
+            <value>
+                <fullName>SOC2 Type II</fullName>
+                <default>false</default>
+                <label>SOC2 Type II</label>
+            </value>
+            <value>
+                <fullName>Output format</fullName>
+                <default>false</default>
+                <label>Output format</label>
+            </value>
+            <value>
+                <fullName>No monthly commitments</fullName>
+                <default>false</default>
+                <label>No monthly commitments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

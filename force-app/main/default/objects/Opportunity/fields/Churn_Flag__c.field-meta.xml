@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flags if customer churned in the middle of the deal</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Flags if customer churned in the middle of the deal</inlineHelpText>
+    <label>Churn Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

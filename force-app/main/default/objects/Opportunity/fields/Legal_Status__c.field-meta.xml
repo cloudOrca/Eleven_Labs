@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Status__c</fullName>
+    <description>Current status of MSA negotiation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Current status of MSA negotiation</inlineHelpText>
+    <label>Legal Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MSA shared</fullName>
+                <default>false</default>
+                <label>MSA shared</label>
+            </value>
+            <value>
+                <fullName>1st redlines received</fullName>
+                <default>false</default>
+                <label>1st redlines received</label>
+            </value>
+            <value>
+                <fullName>1st redlines returned</fullName>
+                <default>false</default>
+                <label>1st redlines returned</label>
+            </value>
+            <value>
+                <fullName>2nd redlines received</fullName>
+                <default>false</default>
+                <label>2nd redlines received</label>
+            </value>
+            <value>
+                <fullName>2nd redlines returned</fullName>
+                <default>false</default>
+                <label>2nd redlines returned</label>
+            </value>
+            <value>
+                <fullName>legal agreement</fullName>
+                <default>false</default>
+                <label>legal agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
