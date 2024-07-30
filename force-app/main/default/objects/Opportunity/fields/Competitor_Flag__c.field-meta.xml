@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Binary flag to note customer use cases that potentially compete directly with ElevenLabs products</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Binary flag to note customer use cases that potentially compete directly with ElevenLabs products</inlineHelpText>
+    <label>Competitor Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
