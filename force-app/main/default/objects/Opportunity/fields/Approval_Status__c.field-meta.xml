@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Trial_Type__c</fullName>
+    <fullName>Approval_Status__c</fullName>
     <externalId>false</externalId>
-    <label>Trial Type</label>
+    <label>Approval Status</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
@@ -12,14 +12,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Grant</fullName>
+                <fullName>Pending</fullName>
                 <default>false</default>
-                <label>Grant</label>
+                <label>Pending</label>
             </value>
             <value>
-                <fullName>Custom</fullName>
+                <fullName>Approved</fullName>
                 <default>false</default>
-                <label>Custom</label>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
             </value>
         </valueSetDefinition>
     </valueSet>

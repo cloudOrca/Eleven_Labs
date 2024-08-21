@@ -5,15 +5,125 @@
     <label>Industry</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
                 <fullName>None</fullName>
                 <default>false</default>
                 <label>None</label>
+            </value>
+            <value>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+                <label>Financial Services</label>
+            </value>
+            <value>
+                <fullName>Music Production</fullName>
+                <default>false</default>
+                <label>Music Production</label>
+            </value>
+            <value>
+                <fullName>Call Centers</fullName>
+                <default>false</default>
+                <label>Call Centers</label>
+            </value>
+            <value>
+                <fullName>Food and Travel</fullName>
+                <default>false</default>
+                <label>Food and Travel</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Logistics &amp; Transportation</fullName>
+                <default>false</default>
+                <label>Logistics &amp; Transportation</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Gaming</fullName>
+                <default>false</default>
+                <label>Gaming</label>
+            </value>
+            <value>
+                <fullName>Media Creation Tools</fullName>
+                <default>false</default>
+                <label>Media Creation Tools</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>TV &amp; Radio Broadcasting</fullName>
+                <default>false</default>
+                <label>TV &amp; Radio Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Movies &amp; Streaming Services</fullName>
+                <default>false</default>
+                <label>Movies &amp; Streaming Services</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Animation</fullName>
+                <default>false</default>
+                <label>Animation</label>
+            </value>
+            <value>
+                <fullName>Digital Publishing</fullName>
+                <default>false</default>
+                <label>Digital Publishing</label>
+            </value>
+            <value>
+                <fullName>News Publishers</fullName>
+                <default>false</default>
+                <label>News Publishers</label>
+            </value>
+            <value>
+                <fullName>Channel Partners</fullName>
+                <default>false</default>
+                <label>Channel Partners</label>
+            </value>
+            <value>
+                <fullName>Health and Wellness</fullName>
+                <default>false</default>
+                <label>Health and Wellness</label>
+            </value>
+            <value>
+                <fullName>Conversational Consumer Applications</fullName>
+                <default>false</default>
+                <label>Conversational Consumer Applications</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
             </value>
         </valueSetDefinition>
     </valueSet>

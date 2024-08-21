@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Loss_Reason__c</fullName>
+    <description>Longer form explanation of why we lost the deal. Loss Category will be automatically derived from this explanation. Please be detailed as possible.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Longer form explanation of why we lost the deal. Loss Category will be automatically derived from this explanation. Please be detailed as possible.</inlineHelpText>
     <label>Loss Reason</label>
+    <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Picklist</type>
-    <valueSet>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-                <label>Lost to Competitor</label>
-            </value>
-            <value>
-                <fullName>No Budget / Lost Funding</fullName>
-                <default>false</default>
-                <label>No Budget / Lost Funding</label>
-            </value>
-            <value>
-                <fullName>No Decision / Non-Responsive</fullName>
-                <default>false</default>
-                <label>No Decision / Non-Responsive</label>
-            </value>
-            <value>
-                <fullName>Price</fullName>
-                <default>false</default>
-                <label>Price</label>
-            </value>
-            <value>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <label>Other</label>
-            </value>
-        </valueSetDefinition>
-    </valueSet>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>
