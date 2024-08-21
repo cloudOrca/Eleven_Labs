@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Latest_Quoted_Price__c</fullName>
-    <description>Pricing quoted per 1M characters</description>
+    <fullName>Discount_Percentage__c</fullName>
+    <description>Discount percentage for Opportunity</description>
     <externalId>false</externalId>
-    <inlineHelpText>Pricing quoted per 1M characters</inlineHelpText>
-    <label>Latest Quoted Price</label>
+    <inlineHelpText>Discount percentage for Opportunity</inlineHelpText>
+    <label>Discount Percentage</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
-    <type>Currency</type>
+    <type>Percent</type>
 </CustomField>

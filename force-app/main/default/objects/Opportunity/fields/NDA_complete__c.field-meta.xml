@@ -7,5 +7,6 @@
     <inlineHelpText>Status of if we have an NDA complete and on file in Google Drive</inlineHelpText>
     <label>NDA complete</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

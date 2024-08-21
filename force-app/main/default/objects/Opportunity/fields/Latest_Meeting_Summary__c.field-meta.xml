@@ -5,9 +5,9 @@
     <externalId>false</externalId>
     <inlineHelpText>AI generated summary from the last live meeting on this deal</inlineHelpText>
     <label>Latest Meeting Summary</label>
-    <length>255</length>
-    <required>false</required>
+    <length>100000</length>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
 </CustomField>

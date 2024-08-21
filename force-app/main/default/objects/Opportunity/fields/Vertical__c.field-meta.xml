@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Trial_Type__c</fullName>
+    <fullName>Vertical__c</fullName>
     <externalId>false</externalId>
-    <label>Trial Type</label>
+    <label>Vertical</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Grant</fullName>
+                <fullName>Media</fullName>
                 <default>false</default>
-                <label>Grant</label>
+                <label>Media</label>
             </value>
             <value>
-                <fullName>Custom</fullName>
+                <fullName>Conversational AI</fullName>
                 <default>false</default>
-                <label>Custom</label>
+                <label>Conversational AI</label>
             </value>
         </valueSetDefinition>
     </valueSet>
