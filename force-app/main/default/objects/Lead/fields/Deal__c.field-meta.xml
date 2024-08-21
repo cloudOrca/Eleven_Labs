@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Point_of_Contact__c</fullName>
+    <fullName>Deal__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Point of Contact</label>
-    <referenceTo>Contact</referenceTo>
+    <label>Deal</label>
+    <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Leads</relationshipLabel>
     <relationshipName>Leads</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <type>Lookup</type>
 </CustomField>
