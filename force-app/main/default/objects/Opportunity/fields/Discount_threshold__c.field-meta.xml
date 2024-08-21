@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Concurrency_Rate__c</fullName>
-    <description>Number of concurrent requests on plan</description>
+    <fullName>Discount_threshold__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Number of concurrent requests on plan</inlineHelpText>
-    <label>Concurrency Rate</label>
+    <formula>$CustomMetadata.Eleven_Labs_Value__mdt.Oppty_Discount_Percentage.Number__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Discount threshold</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>
-    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Number</type>
     <unique>false</unique>
