@@ -26,8 +26,4 @@
         <fullName>Proposal</fullName>
         <default>false</default>
     </values>
-    <values>
-        <fullName>Trial</fullName>
-        <default>false</default>
-    </values>
 </BusinessProcess>
