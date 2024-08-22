@@ -7,5 +7,6 @@
     <inlineHelpText>Status if we have outside counsel involved in this deal</inlineHelpText>
     <label>Outside Counsel Involved</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
