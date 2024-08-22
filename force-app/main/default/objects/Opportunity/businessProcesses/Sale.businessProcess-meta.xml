@@ -3,27 +3,7 @@
     <fullName>Sale</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed Lost</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Closed Won</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Discovery</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>Meeting Booked</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Negotiation</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Proposal</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>

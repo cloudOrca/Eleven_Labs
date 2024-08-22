@@ -8,7 +8,7 @@
     </values>
     <values>
         <fullName>Contacted</fullName>
-        <default>false</default>
+        <default>true</default>
     </values>
     <values>
         <fullName>Disqualified</fullName>
@@ -17,9 +17,5 @@
     <values>
         <fullName>Nurturing</fullName>
         <default>false</default>
-    </values>
-    <values>
-        <fullName>Pending Propect</fullName>
-        <default>true</default>
     </values>
 </BusinessProcess>
