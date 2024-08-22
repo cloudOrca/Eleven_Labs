@@ -15,10 +15,6 @@
         <default>false</default>
     </values>
     <values>
-        <fullName>Legal Review</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>Meeting Booked</fullName>
         <default>false</default>
     </values>

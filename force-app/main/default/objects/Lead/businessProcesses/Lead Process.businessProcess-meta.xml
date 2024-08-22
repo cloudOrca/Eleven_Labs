@@ -19,10 +19,6 @@
         <default>false</default>
     </values>
     <values>
-        <fullName>Pending Inbound</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>Pending Propect</fullName>
         <default>true</default>
     </values>
