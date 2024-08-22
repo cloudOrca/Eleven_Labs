@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal</fullName>
+    <active>true</active>
+    <businessProcess>Renewal</businessProcess>
+    <label>Renewal</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blockers_to_sign_deal__c</picklist>
+        <values>
+            <fullName>Annual Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio Native</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoBranding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dictionary%2Fpronunciation controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubbing Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU servers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emotional controllability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emphasis %26 intonation control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPAA Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Latency Streaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New languages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No monthly commitments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-verbal sounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-device rendering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-premises rendering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Output file naming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Output format</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacing controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private language models</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Projections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Runtime generation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOC2 Type II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOC2%2FISO27001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speech-to-Speech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timecodes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volume controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>csv batch upload</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competitors__c</picklist>
+        <values>
+            <fullName>Amazon Polly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deepgram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Descript</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ElevenLabs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google TTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeyGen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-house TTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Azure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Murf AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Play%2Eht</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rask AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reedz Speaker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ResembleAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respeecher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sonantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Synthesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tortoise TTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WellSaid Labs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>non</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Centers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conversational Consumer Applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food and Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health and Wellness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics %26 Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Creation Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movies %26 Streaming Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>News Publishers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV %26 Radio Broadcasting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Languages__c</picklist>
+        <values>
+            <fullName>Albanian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amharic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabic Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulgarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese - Mandarin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dutch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estonian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finnish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>German</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hausa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hebrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hindi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IGBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonesian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japanese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latvian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macedonian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mandarin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norwegian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oromo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese - Brazilian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese - Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovenian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swahili</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swedish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukranian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urdu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yoruba</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Client referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ElevenLabs DB email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell - existing customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell - grant opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%2C Contact Sales Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Referral%2C Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lemlist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PQL Workspace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third-party gathered email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upsells%2C Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legal_Status__c</picklist>
+        <values>
+            <fullName>1st redlines received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st redlines returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd redlines received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd redlines returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSA shared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>legal agreement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Category__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Features_Needed__c</picklist>
+        <values>
+            <fullName>API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acronyms %26 Capitalisation selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional voice design settings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio native</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Command-line Interface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conversation-context link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom cloud solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated servers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dialogue feature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diarization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dictionary %2F Pronunciation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emotional controllability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emphasis %26 intonation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HiFi audio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Input streaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-verbal sounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-device deployment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-premise deployment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Output file naming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Output file selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCM Streaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacing control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority queue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional voices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Projections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prompts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pronunciation Dictionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realtime dubbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Runtime generation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STS API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sound FX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speech-to-Speech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speech-to-Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text-to-Speech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timecode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unity integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unreal integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice filters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volume controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webapp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>csv batch upload</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>dubb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>hifi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>runt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Asia %26 Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India %26 South Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revenue_Type__c</picklist>
+        <values>
+            <fullName>Existing Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net New Revenue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Territory__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India and South Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan %26 Korea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oceania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trial_Type__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_deal__c</picklist>
+        <values>
+            <fullName>Churned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downsell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First deal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upsell</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Use_Case__c</picklist>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audiobooks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatbot%2Fcall centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interactive Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Language Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %26 training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>News articles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Podcasts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio %26 Media production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text-to-Speech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vendor_Questionnaire_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vertical__c</picklist>
+        <values>
+            <fullName>Conversational AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
