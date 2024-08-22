@@ -3,7 +3,7 @@
     <fullName>Renewal</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Meeting Booked</fullName>
+        <fullName>Closed Won</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>
