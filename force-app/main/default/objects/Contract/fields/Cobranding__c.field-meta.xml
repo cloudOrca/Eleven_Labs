@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cobranding__c</fullName>
+    <description>Whether the branding clause was preserved in our contract and requires customer to display ElevenLabs logo in their product. This is typically required for competitive use cases.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether the branding clause was preserved in our contract and requires customer to display ElevenLabs logo in their product. This is typically required for competitive use cases.</inlineHelpText>
+    <label>Cobranding</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Required</fullName>
+                <default>false</default>
+                <label>Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
