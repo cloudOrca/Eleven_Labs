@@ -7,5 +7,6 @@
     <inlineHelpText>Flags if customer churned in the middle of the deal</inlineHelpText>
     <label>Churn Flag</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

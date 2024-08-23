@@ -5,15 +5,21 @@
     <label>Trial Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>None</fullName>
+                <fullName>Grant</fullName>
                 <default>false</default>
-                <label>None</label>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
             </value>
         </valueSetDefinition>
     </valueSet>
