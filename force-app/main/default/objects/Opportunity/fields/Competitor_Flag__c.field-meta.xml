@@ -7,5 +7,6 @@
     <inlineHelpText>Binary flag to note customer use cases that potentially compete directly with ElevenLabs products</inlineHelpText>
     <label>Competitor Flag</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
