@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>NDA_Signed__c</fullName>
-    <description>Whether we have signed an NDA with this account</description>
+    <fullName>Vertical__c</fullName>
+    <description>Category of industry or use case</description>
     <externalId>false</externalId>
-    <inlineHelpText>Whether we have signed an NDA with this account</inlineHelpText>
-    <label>NDA Signed</label>
+    <inlineHelpText>Category of industry or use case</inlineHelpText>
+    <label>Vertical</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Yes</fullName>
+                <fullName>TBD</fullName>
                 <default>false</default>
-                <label>Yes</label>
-            </value>
-            <value>
-                <fullName>No</fullName>
-                <default>false</default>
-                <label>No</label>
+                <label>TBD</label>
             </value>
         </valueSetDefinition>
     </valueSet>

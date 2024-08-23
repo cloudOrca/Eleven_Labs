@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>TotalAmountOfCloseWonOpp__c</fullName>
+    <fullName>All_time_Account_Value__c</fullName>
+    <description>Sum of all closed-won opportunities</description>
     <externalId>false</externalId>
-    <label>Total Amount of Close Won Opp</label>
-    <summarizedField>Opportunity.Amount</summarizedField>
+    <label>All time Account Value</label>
     <summaryFilterItems>
         <field>Opportunity.StageName</field>
         <operation>equals</operation>
         <value>Closed Won</value>
     </summaryFilterItems>
     <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
-    <summaryOperation>sum</summaryOperation>
+    <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>
     <type>Summary</type>
 </CustomField>
