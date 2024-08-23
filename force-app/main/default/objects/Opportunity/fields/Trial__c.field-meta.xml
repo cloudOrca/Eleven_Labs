@@ -7,5 +7,6 @@
     <inlineHelpText>Have they received a trial?</inlineHelpText>
     <label>Trial</label>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

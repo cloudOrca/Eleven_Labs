@@ -5,9 +5,9 @@
     <externalId>false</externalId>
     <inlineHelpText>Notes from SDR&apos;s qualification process</inlineHelpText>
     <label>Qualification Reason</label>
-    <length>255</length>
-    <required>false</required>
+    <length>131000</length>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
 </CustomField>
