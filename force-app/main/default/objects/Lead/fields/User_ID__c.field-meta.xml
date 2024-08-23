@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>User ID of ElevenLabs account (collected if the lead was signed in at the time of filling the form)</inlineHelpText>
+    <label>User ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
