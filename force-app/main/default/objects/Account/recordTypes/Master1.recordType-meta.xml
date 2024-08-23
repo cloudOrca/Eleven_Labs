@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master1</fullName>
+    <active>true</active>
+    <label>Master</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Apollo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ElevenLabs DB email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell - existing customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email upsell - grant opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%2C Contact Sales Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Referral%2C Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lemlist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PQL Workspace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third-party gathered email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upsells%2C Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Success_Stage__c</picklist>
+        <values>
+            <fullName>Adopting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expanding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Success_Tier__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_sentiment__c</picklist>
+        <values>
+            <fullName>Negative Customer Sentiment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neutral Customer Sentiment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive Customer Sentiment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Centers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conversational Consumer Applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food and Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health and Wellness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics %26 Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Creation Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movies %26 Streaming Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Music Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>News Publishers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV %26 Radio Broadcasting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NDA_Signed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Asia %26 Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India %26 South Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segment__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospective</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strategic_Nature__c</picklist>
+        <values>
+            <fullName>2024 Hitlist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AI Native</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Enterprise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strategic_client__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strategic_list__c</picklist>
+        <values>
+            <fullName>Euronext composite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortune 1000 US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortune 500 Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortune 500 US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global 500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nasdaq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26P 500 composite</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Territory__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India and South Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan %26 Korea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oceania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vertical__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
