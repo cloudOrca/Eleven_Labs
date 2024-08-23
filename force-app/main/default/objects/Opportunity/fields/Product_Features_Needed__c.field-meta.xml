@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Features_Needed__c</fullName>
+    <description>Features that would be used in this lead&apos;s application</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Features that would be used in this lead&apos;s application</inlineHelpText>
+    <label>Product Features Needed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>STS API</fullName>
+                <default>false</default>
+                <label>STS API</label>
+            </value>
+            <value>
+                <fullName>Dictionary / Pronunciation</fullName>
+                <default>false</default>
+                <label>Dictionary / Pronunciation</label>
+            </value>
+            <value>
+                <fullName>Emphasis &amp; intonation</fullName>
+                <default>false</default>
+                <label>Emphasis &amp; intonation</label>
+            </value>
+            <value>
+                <fullName>Speech-to-Speech</fullName>
+                <default>false</default>
+                <label>Speech-to-Speech</label>
+            </value>
+            <value>
+                <fullName>dubb</fullName>
+                <default>false</default>
+                <label>dubb</label>
+            </value>
+            <value>
+                <fullName>Conversation-context link</fullName>
+                <default>false</default>
+                <label>Conversation-context link</label>
+            </value>
+            <value>
+                <fullName>Emotional controllability</fullName>
+                <default>false</default>
+                <label>Emotional controllability</label>
+            </value>
+            <value>
+                <fullName>Runtime generation</fullName>
+                <default>false</default>
+                <label>Runtime generation</label>
+            </value>
+            <value>
+                <fullName>Unity integration</fullName>
+                <default>false</default>
+                <label>Unity integration</label>
+            </value>
+            <value>
+                <fullName>runt</fullName>
+                <default>false</default>
+                <label>runt</label>
+            </value>
+            <value>
+                <fullName>Additional voice design settings</fullName>
+                <default>false</default>
+                <label>Additional voice design settings</label>
+            </value>
+            <value>
+                <fullName>Priority queue</fullName>
+                <default>false</default>
+                <label>Priority queue</label>
+            </value>
+            <value>
+                <fullName>Non-verbal sounds</fullName>
+                <default>false</default>
+                <label>Non-verbal sounds</label>
+            </value>
+            <value>
+                <fullName>Sound FX</fullName>
+                <default>false</default>
+                <label>Sound FX</label>
+            </value>
+            <value>
+                <fullName>Pacing control</fullName>
+                <default>false</default>
+                <label>Pacing control</label>
+            </value>
+            <value>
+                <fullName>Realtime dubbing</fullName>
+                <default>false</default>
+                <label>Realtime dubbing</label>
+            </value>
+            <value>
+                <fullName>Command-line Interface</fullName>
+                <default>false</default>
+                <label>Command-line Interface</label>
+            </value>
+            <value>
+                <fullName>Projections</fullName>
+                <default>false</default>
+                <label>Projections</label>
+            </value>
+            <value>
+                <fullName>User management</fullName>
+                <default>false</default>
+                <label>User management</label>
+            </value>
+            <value>
+                <fullName>Webapp</fullName>
+                <default>false</default>
+                <label>Webapp</label>
+            </value>
+            <value>
+                <fullName>Volume controls</fullName>
+                <default>false</default>
+                <label>Volume controls</label>
+            </value>
+            <value>
+                <fullName>On-device deployment</fullName>
+                <default>false</default>
+                <label>On-device deployment</label>
+            </value>
+            <value>
+                <fullName>Input streaming</fullName>
+                <default>false</default>
+                <label>Input streaming</label>
+            </value>
+            <value>
+                <fullName>Pronunciation Dictionary</fullName>
+                <default>false</default>
+                <label>Pronunciation Dictionary</label>
+            </value>
+            <value>
+                <fullName>Prompts</fullName>
+                <default>false</default>
+                <label>Prompts</label>
+            </value>
+            <value>
+                <fullName>Acronyms &amp; Capitalisation selection</fullName>
+                <default>false</default>
+                <label>Acronyms &amp; Capitalisation selection</label>
+            </value>
+            <value>
+                <fullName>Text-to-Speech</fullName>
+                <default>false</default>
+                <label>Text-to-Speech</label>
+            </value>
+            <value>
+                <fullName>Custom cloud solution</fullName>
+                <default>false</default>
+                <label>Custom cloud solution</label>
+            </value>
+            <value>
+                <fullName>Professional voices</fullName>
+                <default>false</default>
+                <label>Professional voices</label>
+            </value>
+            <value>
+                <fullName>Output file naming</fullName>
+                <default>false</default>
+                <label>Output file naming</label>
+            </value>
+            <value>
+                <fullName>Voice filters</fullName>
+                <default>false</default>
+                <label>Voice filters</label>
+            </value>
+            <value>
+                <fullName>hifi</fullName>
+                <default>false</default>
+                <label>hifi</label>
+            </value>
+            <value>
+                <fullName>Timecode</fullName>
+                <default>false</default>
+                <label>Timecode</label>
+            </value>
+            <value>
+                <fullName>SSML</fullName>
+                <default>false</default>
+                <label>SSML</label>
+            </value>
+            <value>
+                <fullName>Output file selection</fullName>
+                <default>false</default>
+                <label>Output file selection</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Diarization</fullName>
+                <default>false</default>
+                <label>Diarization</label>
+            </value>
+            <value>
+                <fullName>On-premise deployment</fullName>
+                <default>false</default>
+                <label>On-premise deployment</label>
+            </value>
+            <value>
+                <fullName>HiFi audio</fullName>
+                <default>false</default>
+                <label>HiFi audio</label>
+            </value>
+            <value>
+                <fullName>Speech-to-Text</fullName>
+                <default>false</default>
+                <label>Speech-to-Text</label>
+            </value>
+            <value>
+                <fullName>Audio native</fullName>
+                <default>false</default>
+                <label>Audio native</label>
+            </value>
+            <value>
+                <fullName>Unreal integration</fullName>
+                <default>false</default>
+                <label>Unreal integration</label>
+            </value>
+            <value>
+                <fullName>csv batch upload</fullName>
+                <default>false</default>
+                <label>csv batch upload</label>
+            </value>
+            <value>
+                <fullName>Dubbing</fullName>
+                <default>false</default>
+                <label>Dubbing</label>
+            </value>
+            <value>
+                <fullName>PCM Streaming</fullName>
+                <default>false</default>
+                <label>PCM Streaming</label>
+            </value>
+            <value>
+                <fullName>Dedicated servers</fullName>
+                <default>false</default>
+                <label>Dedicated servers</label>
+            </value>
+            <value>
+                <fullName>Dialogue feature</fullName>
+                <default>false</default>
+                <label>Dialogue feature</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modified_Contract_End_Date__c</fullName>
+    <description>Updated Contract End Date (early termination or extension)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Updated Contract End Date (early termination or extension)</inlineHelpText>
+    <label>Modified Contract End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>
