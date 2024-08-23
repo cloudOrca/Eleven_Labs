@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms__c</fullName>
+    <description>Invoicing/payment terms - e.g., monthly/annually, and whether net 30, 45, 60, 90 days, etc.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Invoicing/payment terms - e.g., monthly/annually, and whether net 30, 45, 60, 90 days, etc.</inlineHelpText>
+    <label>Payment Terms</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
