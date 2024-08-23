@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Deal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Denotes the original first deal for any derivative opportunities such as upsells and renewals in order to trace origin of the account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Denotes the original first deal for any derivative opportunities such as upsells and renewals in order to trace origin of the account.</inlineHelpText>
+    <label>Original Deal</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

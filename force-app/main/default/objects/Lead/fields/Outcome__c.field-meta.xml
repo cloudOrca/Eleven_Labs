@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <description>Select an outcome option</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select an outcome option</inlineHelpText>
+    <label>Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rejected - not the right time</fullName>
+                <default>false</default>
+                <label>Rejected - not the right time</label>
+            </value>
+            <value>
+                <fullName>Interested - moved to Deals</fullName>
+                <default>false</default>
+                <label>Interested - moved to Deals</label>
+            </value>
+            <value>
+                <fullName>Sent to self-serve - enterprise referral</fullName>
+                <default>false</default>
+                <label>Sent to self-serve - enterprise referral</label>
+            </value>
+            <value>
+                <fullName>Rejected - already using a competitor</fullName>
+                <default>false</default>
+                <label>Rejected - already using a competitor</label>
+            </value>
+            <value>
+                <fullName>Rejected - other</fullName>
+                <default>false</default>
+                <label>Rejected - other</label>
+            </value>
+            <value>
+                <fullName>Rejected - not interested</fullName>
+                <default>false</default>
+                <label>Rejected - not interested</label>
+            </value>
+            <value>
+                <fullName>Rejected - quality issue</fullName>
+                <default>false</default>
+                <label>Rejected - quality issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

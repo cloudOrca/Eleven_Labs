@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Meeting_Booked__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Time when the first qualified meeting was booked</inlineHelpText>
+    <label>First Meeting Booked</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

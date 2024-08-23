@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_targeted__c</fullName>
+    <description>The department or function of the company that the lead target belongs to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The department or function of the company that the lead target belongs to</inlineHelpText>
+    <label>Team targeted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C-level</fullName>
+                <default>false</default>
+                <label>C-level</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Conversational design</fullName>
+                <default>false</default>
+                <label>Conversational design</label>
+            </value>
+            <value>
+                <fullName>Corporate Dev</fullName>
+                <default>false</default>
+                <label>Corporate Dev</label>
+            </value>
+            <value>
+                <fullName>Digitalisation / Transformation</fullName>
+                <default>false</default>
+                <label>Digitalisation / Transformation</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Innovation</fullName>
+                <default>false</default>
+                <label>Innovation</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

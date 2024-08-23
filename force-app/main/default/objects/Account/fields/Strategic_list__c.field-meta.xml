@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_list__c</fullName>
+    <externalId>false</externalId>
+    <label>Strategic list</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fortune 1000 US</fullName>
+                <default>false</default>
+                <label>Fortune 1000 US</label>
+            </value>
+            <value>
+                <fullName>Euronext composite</fullName>
+                <default>false</default>
+                <label>Euronext composite</label>
+            </value>
+            <value>
+                <fullName>Global 500</fullName>
+                <default>false</default>
+                <label>Global 500</label>
+            </value>
+            <value>
+                <fullName>NYSE</fullName>
+                <default>false</default>
+                <label>NYSE</label>
+            </value>
+            <value>
+                <fullName>Fortune 500 Europe</fullName>
+                <default>false</default>
+                <label>Fortune 500 Europe</label>
+            </value>
+            <value>
+                <fullName>Nasdaq</fullName>
+                <default>false</default>
+                <label>Nasdaq</label>
+            </value>
+            <value>
+                <fullName>S&amp;P 500 composite</fullName>
+                <default>false</default>
+                <label>S&amp;P 500 composite</label>
+            </value>
+            <value>
+                <fullName>Fortune 500 US</fullName>
+                <default>false</default>
+                <label>Fortune 500 US</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>
