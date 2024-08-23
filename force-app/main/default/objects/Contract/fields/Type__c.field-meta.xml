@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>Type of enterprise agreement</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of enterprise agreement</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Master Service Agreement</fullName>
+                <default>false</default>
+                <label>Master Service Agreement</label>
+            </value>
+            <value>
+                <fullName>Sales Order Form</fullName>
+                <default>false</default>
+                <label>Sales Order Form</label>
+            </value>
+            <value>
+                <fullName>Proof of Concept</fullName>
+                <default>false</default>
+                <label>Proof of Concept</label>
+            </value>
+            <value>
+                <fullName>Terms of Engagement</fullName>
+                <default>false</default>
+                <label>Terms of Engagement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
