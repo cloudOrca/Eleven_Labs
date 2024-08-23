@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Case__c</fullName>
+    <description>Use case that best matches the application for this opportunity. To be automatically updated from Use case detail</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use case that best matches the application for this opportunity. To be automatically updated from Use case detail</inlineHelpText>
+    <label>Use Case</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Learning &amp; training</fullName>
+                <default>false</default>
+                <label>Learning &amp; training</label>
+            </value>
+            <value>
+                <fullName>Sports entertainment</fullName>
+                <default>false</default>
+                <label>Sports entertainment</label>
+            </value>
+            <value>
+                <fullName>News articles</fullName>
+                <default>false</default>
+                <label>News articles</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Publishing</fullName>
+                <default>false</default>
+                <label>Publishing</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Gaming</fullName>
+                <default>false</default>
+                <label>Gaming</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Audiobooks</fullName>
+                <default>false</default>
+                <label>Audiobooks</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Language Learning</fullName>
+                <default>false</default>
+                <label>Language Learning</label>
+            </value>
+            <value>
+                <fullName>Chatbot/call centre</fullName>
+                <default>false</default>
+                <label>Chatbot/call centre</label>
+            </value>
+            <value>
+                <fullName>Interactive Agent</fullName>
+                <default>false</default>
+                <label>Interactive Agent</label>
+            </value>
+            <value>
+                <fullName>Dubbing</fullName>
+                <default>false</default>
+                <label>Dubbing</label>
+            </value>
+            <value>
+                <fullName>TV</fullName>
+                <default>false</default>
+                <label>TV</label>
+            </value>
+            <value>
+                <fullName>Radio &amp; Media production</fullName>
+                <default>false</default>
+                <label>Radio &amp; Media production</label>
+            </value>
+            <value>
+                <fullName>Text-to-Speech</fullName>
+                <default>false</default>
+                <label>Text-to-Speech</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Podcasts</fullName>
+                <default>false</default>
+                <label>Podcasts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>
