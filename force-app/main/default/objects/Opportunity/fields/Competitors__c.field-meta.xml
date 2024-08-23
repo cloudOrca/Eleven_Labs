@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitors__c</fullName>
+    <description>Who are we competing against for this deal?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Who are we competing against for this deal?</inlineHelpText>
+    <label>Competitors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>non</fullName>
+                <default>false</default>
+                <label>non</label>
+            </value>
+            <value>
+                <fullName>Reedz Speaker</fullName>
+                <default>false</default>
+                <label>Reedz Speaker</label>
+            </value>
+            <value>
+                <fullName>Rask AI</fullName>
+                <default>false</default>
+                <label>Rask AI</label>
+            </value>
+            <value>
+                <fullName>Google TTS</fullName>
+                <default>false</default>
+                <label>Google TTS</label>
+            </value>
+            <value>
+                <fullName>HeyGen</fullName>
+                <default>false</default>
+                <label>HeyGen</label>
+            </value>
+            <value>
+                <fullName>Synthesia</fullName>
+                <default>false</default>
+                <label>Synthesia</label>
+            </value>
+            <value>
+                <fullName>In-house TTS</fullName>
+                <default>false</default>
+                <label>In-house TTS</label>
+            </value>
+            <value>
+                <fullName>Tortoise TTS</fullName>
+                <default>false</default>
+                <label>Tortoise TTS</label>
+            </value>
+            <value>
+                <fullName>Respeecher</fullName>
+                <default>false</default>
+                <label>Respeecher</label>
+            </value>
+            <value>
+                <fullName>Play.ht</fullName>
+                <default>false</default>
+                <label>Play.ht</label>
+            </value>
+            <value>
+                <fullName>ElevenLabs</fullName>
+                <default>false</default>
+                <label>ElevenLabs</label>
+            </value>
+            <value>
+                <fullName>Apple</fullName>
+                <default>false</default>
+                <label>Apple</label>
+            </value>
+            <value>
+                <fullName>Deepgram</fullName>
+                <default>false</default>
+                <label>Deepgram</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Descript</fullName>
+                <default>false</default>
+                <label>Descript</label>
+            </value>
+            <value>
+                <fullName>Sonantic</fullName>
+                <default>false</default>
+                <label>Sonantic</label>
+            </value>
+            <value>
+                <fullName>WellSaid Labs</fullName>
+                <default>false</default>
+                <label>WellSaid Labs</label>
+            </value>
+            <value>
+                <fullName>Murf AI</fullName>
+                <default>false</default>
+                <label>Murf AI</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure</fullName>
+                <default>false</default>
+                <label>Microsoft Azure</label>
+            </value>
+            <value>
+                <fullName>ResembleAI</fullName>
+                <default>false</default>
+                <label>ResembleAI</label>
+            </value>
+            <value>
+                <fullName>Amazon Polly</fullName>
+                <default>false</default>
+                <label>Amazon Polly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

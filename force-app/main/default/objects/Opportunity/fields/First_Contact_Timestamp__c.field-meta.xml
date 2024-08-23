@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Contact_Timestamp__c</fullName>
+    <description>The first interaction or reply to this lead</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The first interaction or reply to this lead</inlineHelpText>
+    <label>First Contact Timestamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>
