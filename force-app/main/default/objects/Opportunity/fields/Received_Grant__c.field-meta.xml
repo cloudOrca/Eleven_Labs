@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Received_Grant__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether the deal is from ElevenLabs Grants</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether the deal is from ElevenLabs Grants</inlineHelpText>
+    <label>Received Grant</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
